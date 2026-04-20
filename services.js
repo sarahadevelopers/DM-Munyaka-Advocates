@@ -34,3 +34,27 @@
     gsap.from(".service-card", { opacity: 0, y: 50, stagger: 0.1, duration: 0.7, scrollTrigger: { trigger: ".services-grid", start: "top 85%" } });
     gsap.from(".timeline-step", { opacity: 0, x: -30, stagger: 0.2, duration: 0.6, scrollTrigger: { trigger: ".process-section", start: "top 85%" } });
     gsap.from(".faq-card", { opacity: 0, y: 20, stagger: 0.08, duration: 0.5, scrollTrigger: { trigger: ".faq-grid", start: "top 85%" } });
+let lastScrollTop = 0;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  // 1. Handle your existing .scrolled class logic
+  if (scrollTop > 50) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+
+  // 2. Handle the hide/show logic
+  if (scrollTop > lastScrollTop && scrollTop > 100) {
+    // Scrolling Down - Hide it
+    navbar.classList.add('nav-hidden');
+  } else {
+    // Scrolling Up - Show it
+    navbar.classList.remove('nav-hidden');
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+});

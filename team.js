@@ -48,3 +48,28 @@
         el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
         observer.observe(el);
     });
+
+    let lastScrollTop = 0;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  // 1. Handle your existing .scrolled class logic
+  if (scrollTop > 50) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+
+  // 2. Handle the hide/show logic
+  if (scrollTop > lastScrollTop && scrollTop > 100) {
+    // Scrolling Down - Hide it
+    navbar.classList.add('nav-hidden');
+  } else {
+    // Scrolling Up - Show it
+    navbar.classList.remove('nav-hidden');
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+});

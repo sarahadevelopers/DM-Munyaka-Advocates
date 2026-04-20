@@ -6,9 +6,23 @@
             --transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
         }
         body { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 400; color: var(--text-dark); background-color: var(--white); line-height: 1.5; overflow-x: hidden; }
-        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; font-weight: 500; letter-spacing: -0.02em; }
-        h1 { font-size: 42px; line-height: 1.2; } h2 { font-size: 28px; } h3 { font-size: 22px; } h4 { font-size: 18px; }
-        p, li { font-size: 14px; line-height: 1.6; color: var(--text-muted); }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'playfair display', serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+h1 { font-size: 38px; font-weight: 400; line-height: 1.2; }
+h2 { font-size: 26px; font-weight: 400; line-height: 1.25; }
+h3 { font-size: 22px; font-weight: 400; }
+h4 { font-size: 16px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; }
+
+@media (max-width: 768px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 20px; }
+}
+p, li { font-size: 14px; line-height: 1.6; color: var(--text-muted); }
         .container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
         section { padding: 80px 0; }
         @media (max-width: 768px) { .container { padding: 0 20px; } section { padding: 60px 0; } h1 { font-size: 32px; } h2 { font-size: 24px; } }
@@ -22,7 +36,12 @@
         
         /* Navbar */
         .navbar { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; padding: 18px 0; transition: all 0.3s ease; background: rgba(30, 43, 60, 0.92);  }
-       .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+      /* Add this to your existing styles */
+.navbar.nav-hidden {
+  transform: translateY(-100%);
+}
+
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 32px; }
         .logo a { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--white); text-decoration: none; }
         .logo span { color: var(--gold); }
         .nav-links { display: flex; gap: 36px; align-items: center; }

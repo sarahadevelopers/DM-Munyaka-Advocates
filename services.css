@@ -152,6 +152,12 @@
             color: var(--navy-dark);
             
         }
+
+        /* Add this to your existing styles */
+.navbar.nav-hidden {
+  transform: translateY(-100%);
+}
+
         .nav-container {
             display: flex;
             justify-content: space-between;
@@ -331,10 +337,11 @@
 
 /* Heading */
 .page-hero h1 {
-    color: var(--white);
+    color:  #B59A5D;
     font-size: 34px;
     margin-bottom: 10px;
     letter-spacing: -0.3px;
+    font-weight: 400;
 }
 
 /* Subtitle */
