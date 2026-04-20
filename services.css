@@ -767,3 +767,27 @@
             .featured-buttons .btn-primary, .featured-buttons .btn-outline { width: 100%; justify-content: center; }
             .sub-footer { flex-direction: column; text-align: center; }
         }
+
+        /* ================= SOCIALS ================= */
+.socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.socials a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(181,154,93,0.15);
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.socials a:hover {
+    background: var(--gold);
+    color: var(--navy);
+}
