@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dmmunyakaadvocates.co.ke/sitemap.xml
+
+# Disallow sensitive directories (if any – none needed for your setup)
+# Disallow: /private/

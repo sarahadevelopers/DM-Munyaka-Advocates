@@ -291,7 +291,7 @@ function generateFooter() {
                 <h4>Contact</h4>
                 <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+254724327060">+254 724 327060</a></div>
                 <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+254750698847">+254 750 698847</a></div>
-                <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:info@dmmunyakaadv.co.ke">info@dmmunyakaadv.co.ke</a></div>
+                <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:info@dmmunyakaadvocates.co.ke">info@dmmunyakaadvocates.co.ke</a></div>
             </div>
             <div>
                 <h4>Qualifications</h4>
@@ -830,8 +830,8 @@ function generatePillarPages() {
         
         const html = `<!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${pillar.title}</title><meta name="description" content="${pillar.description}"><meta name="robots" content="index, follow"><link rel="canonical" href="https://dmmunyakaadv.co.ke/pillars/${pillar.slug}.html"><style>*{margin:0;padding:0;box-sizing:border-box;}body{font-family:'Georgia',serif;line-height:1.7;color:#1a2a3a;background:#fff;}.container{max-width:1100px;margin:0 auto;padding:0 24px;}header{background:#1E2B3C;color:white;padding:60px 0;text-align:center;}header h1{font-size:2.5rem;font-family:'Playfair Display',serif;}.gold{color:#B59A5D;}.content{padding:60px 0;}h2{color:#1E2B3C;margin:30px 0 15px;border-left:4px solid #B59A5D;padding-left:20px;}.cta-box{background:#F8F9FA;padding:40px;text-align:center;margin:40px 0;border-left:4px solid #B59A5D;}.btn{background:#B59A5D;color:#1E2B3C;padding:12px 28px;text-decoration:none;display:inline-block;margin-top:20px;}.blog-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin:30px 0;list-style:none;}.blog-list li{background:#F8F9FA;padding:15px;}.blog-list a{color:#1E2B3C;text-decoration:none;font-weight:500;}.contact-info{background:#1E2B3C;color:white;padding:40px;text-align:center;margin-top:40px;}.contact-info a{color:#B59A5D;}@media(max-width:768px){header h1{font-size:1.8rem;}}</style></head>
-<body><header><div class="container"><h1>${pillar.title.split('|')[0]}</h1><p>📍 Anam Annex Building, Suite 1 | Opposite Machakos Stadium | <span class="gold">📞 +254 724 327060</span></p></div></header><div class="content"><div class="container"><p><strong>D.M. Munyaka & Company Advocates</strong> provides expert legal services from our chambers opposite Machakos Stadium. Led by an <strong>LLB (Hons) graduate of Moi University</strong> and the <strong>Kenya School of Law (KSL)</strong>, our firm combines academic excellence with practical experience.</p><div class="cta-box"><h3>Need a Lawyer in Machakos?</h3><p>Call us today: <strong>+254 724 327060</strong></p><a href="/contact.html" class="btn">Schedule Consultation →</a></div><h2>Related Legal Guides</h2><ul class="blog-list">${blogLinks}</ul><div class="contact-info"><p>📞 <a href="tel:+254724327060">+254 724 327060</a></p><p>✉️ <a href="mailto:info@dmmunyakaadv.co.ke">info@dmmunyakaadv.co.ke</a></p></div></div></div></body></html>`;
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${pillar.title}</title><meta name="description" content="${pillar.description}"><meta name="robots" content="index, follow"><link rel="canonical" href="https://dmmunyakaadvocates.co.ke/pillars/${pillar.slug}.html"><style>*{margin:0;padding:0;box-sizing:border-box;}body{font-family:'Georgia',serif;line-height:1.7;color:#1a2a3a;background:#fff;}.container{max-width:1100px;margin:0 auto;padding:0 24px;}header{background:#1E2B3C;color:white;padding:60px 0;text-align:center;}header h1{font-size:2.5rem;font-family:'Playfair Display',serif;}.gold{color:#B59A5D;}.content{padding:60px 0;}h2{color:#1E2B3C;margin:30px 0 15px;border-left:4px solid #B59A5D;padding-left:20px;}.cta-box{background:#F8F9FA;padding:40px;text-align:center;margin:40px 0;border-left:4px solid #B59A5D;}.btn{background:#B59A5D;color:#1E2B3C;padding:12px 28px;text-decoration:none;display:inline-block;margin-top:20px;}.blog-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin:30px 0;list-style:none;}.blog-list li{background:#F8F9FA;padding:15px;}.blog-list a{color:#1E2B3C;text-decoration:none;font-weight:500;}.contact-info{background:#1E2B3C;color:white;padding:40px;text-align:center;margin-top:40px;}.contact-info a{color:#B59A5D;}@media(max-width:768px){header h1{font-size:1.8rem;}}</style></head>
+<body><header><div class="container"><h1>${pillar.title.split('|')[0]}</h1><p>📍 Anam Annex Building, Suite 1 | Opposite Machakos Stadium | <span class="gold">📞 +254 724 327060</span></p></div></header><div class="content"><div class="container"><p><strong>D.M. Munyaka & Company Advocates</strong> provides expert legal services from our chambers opposite Machakos Stadium. Led by an <strong>LLB (Hons) graduate of Moi University</strong> and the <strong>Kenya School of Law (KSL)</strong>, our firm combines academic excellence with practical experience.</p><div class="cta-box"><h3>Need a Lawyer in Machakos?</h3><p>Call us today: <strong>+254 724 327060</strong></p><a href="/contact.html" class="btn">Schedule Consultation →</a></div><h2>Related Legal Guides</h2><ul class="blog-list">${blogLinks}</ul><div class="contact-info"><p>📞 <a href="tel:+254724327060">+254 724 327060</a></p><p>✉️ <a href="mailto:info@dmmunyakaadvocates.co.ke">info@dmmunyakaadvocates.co.ke</a></p></div></div></div></body></html>`;
         
         fs.writeFileSync(path.join(PILLAR_DIR, `${pillar.slug}.html`), html);
         console.log(`✅ Generated pillar page: ${pillar.slug}.html`);
@@ -844,14 +844,14 @@ function generatePillarPages() {
 function generateSitemap(allPostsData) {
     let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
     ['index.html', 'about.html', 'services.html', 'team.html', 'contact.html'].forEach(page => {
-        xml += `\n<url><loc>https://dmmunyakaadv.co.ke/${page}</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`;
+        xml += `\n<url><loc>https://dmmunyakaadvocates.co.ke/${page}</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`;
     });
     const pillarFiles = fs.readdirSync(PILLAR_DIR);
     pillarFiles.forEach(file => {
-        xml += `\n<url><loc>https://dmmunyakaadv.co.ke/pillars/${file}</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`;
+        xml += `\n<url><loc>https://dmmunyakaadvocates.co.ke/pillars/${file}</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`;
     });
     allPostsData.forEach(post => {
-        xml += `\n<url><loc>https://dmmunyakaadv.co.ke/blogs/${post.slug}.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`;
+        xml += `\n<url><loc>https://dmmunyakaadvocates.co.ke/blogs/${post.slug}.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`;
     });
     xml += `\n</urlset>`;
     fs.writeFileSync(SITEMAP_PATH, xml);
@@ -930,13 +930,13 @@ for (const [category, keywordsList] of Object.entries(keywordClusters)) {
     <meta name="description" content="${primary}: Expert legal analysis from D.M. Munyaka, LLB (Hons) Moi University & Kenya School of Law (KSL) graduate. Located at Anam Annex, opposite Machakos Stadium.">
     <meta name="author" content="D.M. Munyaka & Company Advocates">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <link rel="canonical" href="https://dmmunyakaadv.co.ke/blogs/${slug}.html">
+    <link rel="canonical" href="https://dmmunyakaadvocates.co.ke/blogs/${slug}.html">
     
     <!-- Open Graph -->
     <meta property="og:title" content="${title}">
     <meta property="og:description" content="Expert legal analysis on ${primary} from D.M. Munyaka & Company Advocates.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://dmmunyakaadv.co.ke/blogs/${slug}.html">
+    <meta property="og:url" content="https://dmmunyakaadvocates.co.ke/blogs/${slug}.html">
     <meta property="og:image" content="${featuredImage}">
     
     <!-- Font Awesome -->
@@ -950,7 +950,7 @@ for (const [category, keywordsList] of Object.entries(keywordClusters)) {
         "@type": "BlogPosting",
         "headline": "${title.replace(/"/g, '\\"')}",
         "description": "Expert legal analysis on ${primary} from D.M. Munyaka & Company Advocates.",
-        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://dmmunyakaadv.co.ke/blogs/${slug}.html"},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://dmmunyakaadvocates.co.ke/blogs/${slug}.html"},
         "image": "${featuredImage}",
         "datePublished": "${today}",
         "author": {
